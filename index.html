@@ -1,32 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#222" />
-    <title>"notafrogo"</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <style>
-        header {
-            text-align: center;
-            border: none;
-        }
 
-        .title {
-            font-size: 70px;
-            font-weight: 100;
-        }
-
-        .underlined {
-            margin-top: 4em;
-        }
-    </style>
     <header>
-        <h1 class="title">notafrogo</h1>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <br><br><br><br>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p></p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <!-- Project cards will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <h2>Contact</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
